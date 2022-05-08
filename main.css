@@ -47,12 +47,14 @@ a{
     right: 78px;
 }
 .start{
-    margin: 40px 80px;
+    margin: 30px 80px;
     display: flex;
     height: 90%;
     width: 90%;
 }
 #cake{
+    object-fit: cover;
+    height: 509px;
     border-radius: 20px;
     width: 470px;
 }
@@ -62,4 +64,86 @@ p{
     margin: 60px 20px;
     text-align: center;
     opacity: 0.78;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+td{
+    font-size: 20px;
+}
+input{
+    height: 30px;
+    margin: 20px 20px;
+}
+.tabla{
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    height: 100%;
+    width: 88%;
+    cursor: pointer;
+    background-color: #a1c4fd;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+#input-correo{
+    margin: 15px 0px;
+}
+.correo{
+    width: 590px;
+}
+.contact #input-correo, textarea, button {
+    padding-bottom: 40px;
+    width: 80%;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+#contact-form {
+    margin-left: 100px;
+}
+span{
+    font-size: 28px;
+    text-align: center;
+}
+.social{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.bx{
+    cursor: pointer;
+    transition: all ease 0.3s;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.bxl-facebook-circle:hover{
+    color:#1094f4;
+}
+.bxl-whatsapp:hover{
+    border-radius: 50%;
+    color: white;
+    background-color: #3ee25a;
+}
+#social-links{
+    padding: 0px;
+}
+.bxs-right-arrow-circle{
+    left: 467px;
+    position: absolute;
+    bottom: 292px;
+    color: white;
+}
+.bxs-left-arrow-circle{
+    left: 62px;
+    position: absolute;
+    bottom: 292px;
+    color: white;
 }
